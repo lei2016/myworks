@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>testimonial</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+
+
+
+  html,body{
+    padding: 0;
+    margin:0;
+  }
+  body {
+  	font-family: '微软雅黑','Open Sans', sans-serif;
+  	line-height: 20px;
+  	color: gray;
+  	font-size: 16px;
+  }
+  .section-padding{
+  	padding: 60px 0px;
+
+  }
+  hr.botm-line {
+      height: 3px;
+      width: 60px;
+      background: red;
+      position:relative;;
+      border: 0;
+      margin: 20px auto;
+
+  }
+  /***************************************
+  testimonial
+  ***************************************/
+
+
+  #testimonial{
+      background-color: #eee;
+  }
+  .testi-details {
+      background: #fff;
+      padding: 14px 24px;
+      margin-bottom: 20px;
+      box-shadow: 3px 3px 2px 0px rgba(0,0,0,0.18);
+      position: relative;
+  }
+  .testi-info a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+      float: left;
+      margin-right: 10px;
+  }
+  .testi-info a img{
+  	border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  .testi-info h3 {
+      display: inline-block;
+      line-height: 22px;
+      font-weight: 600;
+      color: #000;
+      margin-top: 8px;
+  }
+  .testi-info h3 > span {
+      display: block;
+      line-height: 16px;
+      font-weight: 400;
+  }
+  .testi-details::after {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-color: transparent;
+      border-left: 0;
+      bottom: -40px;
+      left: 56px;
+      border-top-color: #fff;
+      border-width: 20px;
+  }
+  .testi-details::before {
+      content: '';
+      position: absolute;
+      transform: rotate(45deg);
+      width: 0px;
+      height: 0px;
+      bottom: -30px;
+      left: 45px;
+      border-style: solid;
+      border-width: 15px;
+      border-color: transparent;
+      z-index: -1;
+      box-shadow: 3px -13px 5px 0px rgba(0, 0, 0, 0.18);
+      border-left: 0;
+  }
+
+  </style>
+</head>
+<body>
+<section id="testimonial" class="section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" >
+        <div class="header-section text-center">
+        <h1>特产虽好但却难得 同学推荐真材实料</h1>
+        <p>有时候需要某地的特产但却一直找不到真正的产地在哪，找同学帮忙让他把最真实的家乡特产推荐给你。</p>
+        <hr class="botm-line text-center">
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <div class="testi-details">
+          <!-- Paragraph -->
+          <p>“老妈心脏不太好，医生说云南的正宗三七对治疗心脏病效果很好。一直想买却不知道哪能买到货真价实的产品。请熟悉三七药材的同学推荐！”</p>
+        </div>
+        <div class="testi-info">
+          <!-- User Image -->
+          <a href="#"><img src="https://ww4.sinaimg.cn/large/006tNbRwgy1fda04tkqk4j30jp0jpmzd.jpg" alt="" class="img-responsive"></a>
+          <!-- User Name -->
+          <p>杨倩<br><span>哈尔滨师范大学2003级中文系</span></p>
+
+        </div>
+      </div>
+        <div class="col-md-4 col-sm-4">
+        <div class="testi-details">
+          <!-- Paragraph -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="testi-info">
+          <!-- User Image -->
+          <a href="#"><img src="https://ww4.sinaimg.cn/large/006tNbRwgy1fda04tkqk4j30jp0jpmzd.jpg" alt="" class="img-responsive"></a>
+          <!-- User Name -->
+          <p>杨倩<br><span>哈尔滨师范大学2003级中文系</span></p>
+        </div>
+      </div>
+        <div class="col-md-4 col-sm-4">
+        <div class="testi-details">
+          <!-- Paragraph -->
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="testi-info">
+          <!-- User Image -->
+          <a href="#"><img src="https://ww4.sinaimg.cn/large/006tNbRwgy1fda04tkqk4j30jp0jpmzd.jpg" alt="" class="img-responsive"></a>
+          <!-- User Name -->
+          <p>杨倩<br><span>哈尔滨师范大学2003级中文系</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ testimonial-->
+</body>
+</html>
